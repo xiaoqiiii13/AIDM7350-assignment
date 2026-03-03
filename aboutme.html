@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me · Meng Xiaoqi (Maggie)</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">✨ Maggie's Space</div>
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#interests">Interests</a>
+                    <a href="#pet">My Pet</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Section (Intro) -->
+        <section id="about" class="card intro">
+            <div class="intro-container">
+                <img src="images/maggie.jpg" alt="Portrait of Meng Xiaoqi (Maggie)" class="profile-pic" loading="lazy" onerror="this.src='https://via.placeholder.com/200?text=Maggie'">
+                <div class="intro-text">
+                    <h2>Hello, I'm Maggie</h2>
+                    <p><strong>22 years old</strong> · From <strong>Kunming, Yunnan</strong></p>
+                    <p>Master's student in AI & Digital Media at HKBU. Passionate about music, movies, and swimming. I believe creativity and technology can make the world better. I'm excited to explore how AI can transform storytelling and media.</p>
+                    <div class="tags">
+                        <span class="tag">🎧 Music Lover</span>
+                        <span class="tag">🎬 Movie Buff</span>
+                        <span class="tag">🏊 Swimmer</span>
+                    </div>
+                    <p>📧 <a href="mailto:25414194@life.hkbu.edu.hk">25414194@life.hkbu.edu.hk</a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Basic Info with remote image on the right -->
+        <section class="card full-width">
+            <div class="basic-info-container">
+                <div class="basic-info-text">
+                    <h2>📋 Basic Info</h2>
+                    <ul class="info-list">
+                        <li><span>👤 Full name:</span> Meng Xiaoqi (Maggie)</li>
+                        <li><span>📅 DOB:</span> 2003-01-03 (22)</li>
+                        <li><span>🏠 Hometown:</span> Kunming, Yunnan</li>
+                        <li><span>🗣️ Languages:</span> Chinese, English</li>
+                        <li><span>📚 Program:</span> MSc in AI & Digital Media</li>
+                    </ul>
+                </div>
+                <div class="basic-info-image">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&auto=format&fit=crop" alt="A cup of coffee with headphones" class="image3" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests & Favorites + Videos (two-column layout) -->
+        <section id="interests" class="interests-video-row">
+            <!-- Left: 2x2 Interests Grid -->
+            <div class="interests-grid-container">
+                <h2>🎯 Interests & Favorites</h2>
+                <div class="interests-grid">
+                    <!-- Block 1: Interests (tags) -->
+                    <div class="interest-block">
+                        <h3>Interests</h3>
+                        <div class="tags">
+                            <span class="tag">🎧 Listening to music</span>
+                            <span class="tag">🎬 Watching TV series</span>
+                            <span class="tag">🏊 Swimming</span>
+                            <span class="tag">☕ Exploring cafes</span>
+                        </div>
+                    </div>
+
+                    <!-- Block 2: Top 3 TV Series (ordered list with links) -->
+                    <div class="favorite-block">
+                        <h3>Top 3 TV Series</h3>
+                        <ol>
+                            <li><a href="https://www.youtube.com/results?search_query=stranger+things" target="_blank" rel="noopener noreferrer">Stranger Things</a></li>
+                            <li><a href="https://www.youtube.com/results?search_query=shameless" target="_blank" rel="noopener noreferrer">Shameless (U.S.)</a></li>
+                            <li><a href="https://www.youtube.com/results?search_query=breaking+bad" target="_blank" rel="noopener noreferrer">Breaking Bad</a></li>
+                        </ol>
+                    </div>
+
+                    <!-- Block 3: Everyday Joys (unordered list) -->
+                    <div class="favorite-block">
+                        <h3>Everyday Joys</h3>
+                        <ul>
+                            <li>Listening to Joker Xue's new songs</li>
+                            <li>Watching a movie on Sunday afternoon</li>
+                            <li>An iced Americano after swimming</li>
+                            <li>Chatting with friends</li>
+                        </ul>
+                    </div>
+
+                    <!-- Block 4: Favorite Singer + button -->
+                    <div class="favorite-block">
+                        <h3>Favorite Singer</h3>
+                        <p><strong>Joker Xue (薛之谦)</strong></p>
+                        <p>Songs: "Ambush on All Sides", "Actor"</p>
+                        <a href="https://www.youtube.com/results?search_query=joker+xue" target="_blank" rel="noopener noreferrer" class="btn">Search on YouTube</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Video Card (two videos stacked vertically) -->
+            <div class="video-card">
+                <h2>▶️ Favorite Videos</h2>
+                <p>Clips that always make my day.</p>
+                <div class="video-stack">
+                    <!-- Video 1: Friends -->
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/QdQ58BbGRsA" title="Friends clip" allowfullscreen></iframe>
+                        </div>
+                        <p class="video-caption"><em>Friends</em> – Classic fun</p>
+                    </div>
+                    <!-- Video 2: Joker Xue - Actor -->
+                    <div class="video-item">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/XaN3kUz4KSw" title="Joker Xue - Actor MV" allowfullscreen></iframe>
+                        </div>
+                        <p class="video-caption">Joker Xue – <em>Actor</em> (My favorite!)</p>
+                    </div>
+                </div>
+                <p>Check out more on <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a>.</p>
+            </div>
+        </section>
+
+        <!-- My Dog: 班章 (Banzhang) -->
+        <section id="pet" class="card full-width dog-section">
+            <h2>🐾 My Dog: Banzhang</h2>
+            <div class="dog-container">
+                <img src="images/banzhang.jpg" alt="Banzhang, a merle Border Collie" class="dog-photo" loading="lazy" onerror="this.src='https://via.placeholder.com/400x300?text=Banzhang'">
+                <div class="dog-info">
+                    <p><strong>Name:</strong> Banzhang (班章)</p>
+                    <p><strong>Age:</strong> 5 years old</p>
+                    <p><strong>Breed:</strong> Merle Border Collie</p>
+                    <p><strong>Personality:</strong> Energetic, clever, and loves to play fetch. He's my best friend and brings so much joy to my life.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Contact Footer -->
+    <footer id="contact">
+        <div class="container">
+            <h2>📬 Let's Connect</h2>
+            <p>Feel free to reach out for collaborations or just to say hi!</p>
+            <div class="contact-buttons">
+                <a href="mailto:25414194@life.hkbu.edu.hk" class="btn">Send Email</a>
+                <a href="tel:+85284956225" class="btn">Call Me</a>
+            </div>
+            <br>
+            <p class="muted" style="font-size: 0.9rem;">📍 Hong Kong Baptist University</p>
+            <p class="muted" style="font-size: 0.8rem; opacity: 0.7;">© 2026 Meng Xiaoqi (Maggie). Designed for AIDM7350.</p>
+        </div>
+    </footer>
+</body>
+</html>
